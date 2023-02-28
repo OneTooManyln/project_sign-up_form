@@ -1,0 +1,8 @@
+.side-image {
+    background-image: url(images/johannes-plenio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40vw; 
+    height: 400px;
+}
