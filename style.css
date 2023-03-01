@@ -24,3 +24,8 @@
     background-size: cover;
     width: 72vw
 }
+
+form {
+    margin: 0 auto;
+    width: 200px;
+}
