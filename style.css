@@ -11,10 +11,11 @@
 
 .side-image {
     background-image: url(images/johannes-plenio.jpg);
-    background-position: right center;
-    background-size: auto;
+    background-position: center center;
+    background-size: cover;
     background-repeat: no-repeat;
-    width: 400px;
+    width: 360px;
+    height: 100%;
 
 }
 
