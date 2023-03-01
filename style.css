@@ -14,11 +14,13 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 360px;
+    width: 28vw;
     height: 100%;
 
 }
 
 .login-page {
-    width: 600px;
+    background-image: linear-gradient(rgb(122, 57, 57), rgb(83, 83, 83));
+    background-size: cover;
+    width: 72vw
 }
