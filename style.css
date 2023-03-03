@@ -22,12 +22,26 @@
 .login-page {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-image: linear-gradient(rgb(122, 57, 57), rgb(83, 83, 83));
     background-size: cover;
     width: 72vw
 }
 
 form {
-    margin: 0 auto;
-    width: 200px;
+    margin: 0;
+    width: 550px;
+    gap: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+input {
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 250px;
+    height: 25px;
 }
