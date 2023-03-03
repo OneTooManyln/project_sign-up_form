@@ -20,6 +20,8 @@
 }
 
 .login-page {
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(rgb(122, 57, 57), rgb(83, 83, 83));
     background-size: cover;
     width: 72vw
