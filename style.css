@@ -29,8 +29,11 @@
 }
 
 form {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    height: 250px;
     margin: 0;
-    width: 550px;
     gap: 20px;
 }
 
@@ -44,4 +47,8 @@ input {
     border-radius: 3px;
     width: 250px;
     height: 25px;
+}    
+
+h2 {
+    width: 100%;
 }
