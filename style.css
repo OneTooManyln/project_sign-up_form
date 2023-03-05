@@ -28,18 +28,25 @@
     width: 72vw
 }
 
+.form-container {
+    background-image: linear-gradient(rgb(122, 57, 57), rgb(83, 83, 83));
+    background-size: cover;
+}
+
 form {
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
     height: 250px;
     margin: 0;
-    gap: 20px;
+    column-gap: 100px;
+    padding-left: 20px;
 }
 
 .inputs {
     display: flex;
     flex-flow: column wrap;
+    height: 50px;
 }
 
 input {
