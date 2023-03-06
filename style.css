@@ -86,9 +86,20 @@ form {
 
 }
 
+input:focus {
+    border: 2.3px solid rgb(113, 156, 219);
+    outline: none;
+    box-shadow: 1.5px 1.5px 1.5px rgb(192, 192, 192);
+}
+
+input:required {
+    border: 2.3px solid red;
+    outline: none;
+}
+
 input {
     border: 1px solid #D6D9DC;
-    border-radius: 3px;
+    border-radius: 4px;
     width: 270px;
     height: 30px;
 
