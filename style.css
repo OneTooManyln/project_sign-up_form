@@ -40,21 +40,27 @@
 }
 
 .form-container {
-    padding-top: 40px;
-    padding-bottom: 40px;    
+    padding-top: 40px;  
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    height: 250px;
+    margin: 0;
+    column-gap: 100px;    
+    box-shadow: 3.7px 3.7px 3.7px rgb(207, 207, 207);
 }
 
 form {
     display: flex;
     flex-direction: column;
     flex-flow: row wrap;
-    height: 250px;
     margin: 0;
-    column-gap: 100px;
+    column-gap: 100px;    
+
 }
 
-.r-bottom {
-    padding-top: 20px;
+.bottom {
+    padding-top: 40px;
 }
 
 .r {
@@ -79,9 +85,13 @@ form {
     font-weight: bold;
 }
 
+.form-button {
+    margin-top: 30px;
+}
+
 .rb-log-in {
     display: flex;
-    padding-top: 30px;
+    padding-top: 10px;
     gap: 6px;
 
 }
@@ -89,7 +99,7 @@ form {
 input:focus {
     border: 2.3px solid rgb(113, 156, 219);
     outline: none;
-    box-shadow: 1.5px 1.5px 1.5px rgb(192, 192, 192);
+    box-shadow: 1.5px 1.5px rgb(192, 192, 192);
 }
 
 input:required {
