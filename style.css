@@ -102,10 +102,10 @@ input:focus {
     box-shadow: 1.5px 1.5px rgb(192, 192, 192);
 }
 
-input:required {
+/* input:required {
     border: 2.3px solid red;
     outline: none;
-}
+} */
 
 input {
     border: 1px solid #D6D9DC;
