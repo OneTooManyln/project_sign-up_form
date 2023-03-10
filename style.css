@@ -29,6 +29,15 @@
 
 }
 
+.image-credits {
+    font-size: .9rem;
+    color: white;
+    position: relative;
+    top: 1185px;
+    display: flex;
+    justify-content: center;
+}
+
 .login-page {
     display: flex;
     flex-direction: column;
